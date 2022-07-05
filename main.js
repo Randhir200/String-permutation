@@ -1,3 +1,4 @@
+//TC = O(n*n!)
 let permutaion = (str, ans, index = 0) => {
     if (0 === str.length) {
       console.log(ans);
